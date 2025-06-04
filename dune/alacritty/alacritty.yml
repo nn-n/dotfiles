@@ -1,0 +1,60 @@
+window:
+  opacity: 0.92
+  decorations: none
+  padding:
+    x: 10
+    y: 10
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  size: 11.0
+  fallback:
+    -"Noto Color Emoji"
+    -"Symbols Nerd Font"
+
+
+cursor:
+  text #1e1b18
+  cursor:#d08770
+  style:
+    shape: Block
+    blinking: Always
+
+colors:
+  primary:
+    background: '#1e1b18'  # desert night
+    foreground: '#e0d8c3'  # pale dune sand
+
+  normal:
+    black:   '#1e1b18'
+    red:     '#bf616a'  # spice
+    green:   '#a3be8c'
+    yellow:  '#ebcb8b'
+    blue:    '#81a1c1'
+    magenta: '#b48ead'
+    cyan:    '#88c0d0'
+    white:   '#e0d8c3'
+
+  bright:
+    black:   '#2d261f'
+    red:     '#d08770'
+    green:   '#b5bd68'
+    yellow:  '#f0dfaf'
+    blue:    '#8fbcbb'
+    magenta: '#c678dd'
+    cyan:    '#9bd6e8'
+    white:   '#f4f4ec'
+
+  cursor:
+    text:   '#1e1b18'
+    cursor: '#d08770'
+
+shell:
+  program: /usr/bin/zsh
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+
