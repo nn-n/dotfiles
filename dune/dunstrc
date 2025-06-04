@@ -1,0 +1,29 @@
+[global]
+font = DejaVu Sans Mono 10
+transparency = 20
+frame_color = "#8e735b"
+separator_color = "#8e735b"
+corner_radius = 10
+padding = 20
+horizontal_padding = 20
+frame_width = 2
+gap_size = 10
+
+[urgency_low]
+background = "#1e1b18"
+foreground = "#ffd29d"
+timeout = 5
+
+[urgency_normal]
+background = "#1e1b18"
+foreground = "#ffd29d"
+timeout = 10
+
+[urgency_critical]
+background = "#1e1b18"
+foreground = "#bf616a"
+frame_color = "#bf616a"
+timeout = 0
+
+
+  
